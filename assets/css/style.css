@@ -1,0 +1,136 @@
+* {
+    background: #E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.logo_alura {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.input_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text_area {
+    resize: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    color: #0A3871;
+    margin-top: 90px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: transparent;
+    height: 300px;
+}
+
+::placeholder { color: #0A3871 }
+    .textArea:focus {
+        outline: none;
+    }
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    font-size: 16px;
+    gap: 24px;
+
+}
+
+.btn_encriptar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border-style: none;
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+.btn_desencriptar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border-style: inset;
+    border: 2px solid #0A3871;
+    background-color: #D8DFE8;
+    color:#0A3871;
+}
+
+.output_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    background-color: #FFFFFF;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+.mensagem {
+    background: white;
+    background: url("../../assets/img/boneco.png") center center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-top: 20px;
+    resize: none;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.texto {
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    text-align: center;
+    color: #495057;
+}
+
+.titulo {
+    padding: 0 12px 0 12px;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.subtitulo {
+    padding: 0 10px 0 10px;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 100%;
+    gap: 2rem;
+}
+
+.btn_copiar {
+    width: 336px;
+    height: 67px;
+    border-radius: 24px;
+    border: 2px solid #0A3871;
+    background-color: #ffffff;
+    color: #0A3871;
+}
